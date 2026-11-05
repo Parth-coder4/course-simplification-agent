@@ -1,0 +1,12 @@
+# Course Content Simplification Agent — Python Dependencies
+# Problem Statement #19 | IBM Granite on watsonx.ai
+
+# ── Web Framework ─────────────────────────────────────────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── HTTP (used to call watsonx.ai REST API + IAM token endpoint directly)
+requests>=2.31.0
+
+# ── Environment / Config ──────────────────────────────────────────────────────
+python-dotenv>=1.0.0
